@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 10e0fff06ccedd445a298004aa5934e0
+guid: 1679a4be7d0d26d47be9470cf962d16e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3237793340734627056
-    second: Finish Line Node_0
+      213: 7582429626792612901
+    second: Later Level Shape_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -178,13 +178,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Finish Line Node_0
+      name: Later Level Shape_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 6
-        width: 19
-        height: 20
+        x: 0
+        y: 0
+        width: 66
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,8 +193,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 01323657c1c0113d0800000000000000
-      internalID: -3237793340734627056
+      spriteID: 5241f5772933a3960800000000000000
+      internalID: 7582429626792612901
       vertices: []
       indices: 
       edges: []
@@ -213,7 +213,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Finish Line Node_0: -3237793340734627056
+      Later Level Shape_0: 7582429626792612901
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
