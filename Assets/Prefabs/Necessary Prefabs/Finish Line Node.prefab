@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 4664481290598258035}
   - component: {fileID: 7311083293153662237}
   - component: {fileID: 8041179159077333594}
+  - component: {fileID: -1645009689085356237}
   m_Layer: 0
   m_Name: Finish Line Node
-  m_TagString: Untagged
+  m_TagString: EndPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -141,3 +142,16 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.27
+--- !u!114 &-1645009689085356237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3609034205830180005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 773921e4097d5584aa6825046b253427, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Load_levels
+  requiredTag: Line
