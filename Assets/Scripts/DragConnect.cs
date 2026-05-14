@@ -46,7 +46,6 @@ public class DragConnect : MonoBehaviour
             endNode != startNode &&
             Vector2.Distance(startNode.transform.position, endNode.transform.position) <= snapDistance)
         {
-            // Snap to node
             currentLine.SetPosition(1, endNode.transform.position);
             startNode.connected = true;
             endNode.connected = true;
@@ -62,6 +61,7 @@ public class DragConnect : MonoBehaviour
     
     Node GetNodeUnderMouse()
     {
+        // consider a different type of cast or collision check
         RaycastHit2D hit = Physics2D.Raycast(
             GetMouseWorldPosition(),
             Vector2.zero
